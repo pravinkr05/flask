@@ -1,0 +1,7 @@
+pip i virtualenv
+virtualenv env
+env+tab+scripts+activate.ps1
+pip i flask
+
+python .\app.py
+pip i flask-sqlalchemy
